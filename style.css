@@ -1,60 +1,122 @@
-
-
-h1{
-  font-size:40px;
-  color: blue
-
+/* h1 {
+  font-size: 40px;
+  color: blue;
 }
 
-.me{
+.me {
   color: green;
 }
 
-.brown{
-  color:orange;
+.brown {
+  color: orange;
 }
 
-.my{
+.my {
   text-align: center;
   text-decoration: underline;
 }
 
-.new{
+.new {
   width: 700px;
-  
 }
 
-.few{
+.few {
   width: 609px;
   height: 458px;
 }
 
-.ima{
+.ima {
   width: 1400px;
   height: 500px;
 }
 
-.five{
+.five {
   height: 325px;
 }
 
-.dis{
+.dis {
   width: 60px;
 }
 
-.face{
+.face {
   width: 60px;
 }
 
-
-.insta{
+.insta {
   width: 60px;
 }
 
-.twit{
+.twit {
   width: 60px;
 }
 
-.tik{
+.tik {
   width: 60px;
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+nav{
+  margin-top: 20px;
+}
+
+nav > ul {
+  list-style: none;
+  text-align: center;
+
+}
+
+
+nav > ul > li{
+  display: inline;
+  margin: 10px;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+section{
+  background-color:#333;
+  
+  margin: 20px;
+
+  padding: 20px;
+}
+
+
+.project{
+
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+
+}
+
+.projects{
+  display: flex;
 }
